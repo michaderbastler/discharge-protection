@@ -11,6 +11,7 @@ It can control an inverter based on buttons (manual interaction) or depending on
 - The status of the discharge protection is shown by a LED. 
 
 ## Installation
-1. Install the [tinygo-plugin](https://plugins.jetbrains.com/plugin/16915-tinygo) for the Goland IDE.
+1. Install the [tinygo-plugin](https://plugins.jetbrains.com/plugin/16915-tinygo) for the Goland IDE. Maybe click on the "Build constraints" hint when opening the 
+package `machine` in order to fill out `Go tags` in the TinyGo plugin automatically (see Settings/Go/TinyGo/Go tags).
 2. If still necessary, install tinygo
 3. Run `tinygo flash -target=arduino-nano33 -monitor` to flash the e.g. an ARDUINO NANO 33 IOT
