@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"dischargeProtection/internal/battery"
-	"dischargeProtection/internal/buttons"
-	"dischargeProtection/internal/dischargeprotection"
-	"dischargeProtection/internal/inverter"
-	"dischargeProtection/internal/leds"
+	"discharge-protection/internal/battery"
+	"discharge-protection/internal/buttons"
+	"discharge-protection/internal/dischargeprotection"
+	"discharge-protection/internal/inverter"
+	"discharge-protection/internal/leds"
 )
 
 func main() {

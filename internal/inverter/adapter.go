@@ -3,7 +3,7 @@ package inverter
 import (
 	"machine"
 
-	"dischargeProtection/config"
+	"discharge-protection/config"
 )
 
 func NewInverterAdapter() Inverter {

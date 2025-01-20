@@ -3,7 +3,7 @@ package battery
 import (
 	"machine"
 
-	"dischargeProtection/config"
+	"discharge-protection/config"
 )
 
 func NewBatteryAdapter() Battery {

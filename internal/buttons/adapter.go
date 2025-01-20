@@ -5,7 +5,7 @@ import (
 	"machine"
 	"time"
 
-	"dischargeProtection/config"
+	"discharge-protection/config"
 )
 
 func NewButtonsAdapter(callbackButtonInverterOn func(), callbackButtonInverterOff func()) Buttons {

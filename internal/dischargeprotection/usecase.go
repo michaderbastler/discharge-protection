@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"dischargeProtection/config"
+	"discharge-protection/config"
 )
 
 func New() DischargeProtection {
